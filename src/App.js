@@ -1,66 +1,7 @@
 import React from "react";
-import Offer from "./components/Offer";
-import Portfolio from "./components/Portfolio";
 import "./App.css";
-import img1 from "../src/assets/img/1.jpeg";
-import img2 from "../src/assets/img/2.jpeg";
-import img3 from "../src/assets/img/3.jpeg";
-import img4 from "../src/assets/img/4.jpeg";
-import img5 from "../src/assets/img/5.jpeg";
-import img6 from "../src/assets/img/6.jpeg";
 
 function App() {
-  const offerLinks = [
-    {
-      offerHeading: "E-Comic",
-      caption: "Web Comic Gift.",
-      offerImg: "fa fa-at fa-stack-1x fa-inverse",
-    },
-    {
-      offerHeading: "Hardbook-Comic",
-      caption: "Photo Comic Book.",
-      offerImg: "fa fa-book fa-stack-1x fa-inverse",
-    },
-    {
-      offerHeading: "Wall-Comic",
-      caption: "Framed Comic Print.",
-      offerImg: "fa fa-photo fa-stack-1x fa-inverse",
-    },
-  ];
-
-  const portfolioLinks = [
-    {
-      title: "Portrait",
-      caption: "Illustration",
-      img: img1,
-    },
-    {
-      title: "Cute Panda",
-      caption: "Graphic Design",
-      img: img2,
-    },
-    {
-      title: "Portrait",
-      caption: "Identity",
-      img: img3,
-    },
-    {
-      title: "Portrait",
-      caption: "Branding",
-      img: img4,
-    },
-    {
-      title: "Wedding",
-      caption: "Design",
-      img: img5,
-    },
-    {
-      title: "Modeling",
-      caption: "Photography",
-      img: img6,
-    },
-  ];
-
   return (
     <div className="App">
       <nav
@@ -126,7 +67,7 @@ function App() {
           </a>
         </div>
       </header>
-      {/* 
+
       <section className="page-section" id="services">
         <div className="container">
           <div className="row">
@@ -178,10 +119,10 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
-      <Offer offerLinks={offerLinks}></Offer>
-      <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
+      {/* <Offer offerLinks={offerLinks}></Offer>
+      <Portfolio portfolioLinks={portfolioLinks}></Portfolio> */}
 
       <section className="page-section" id="about">
         <div className="container">
